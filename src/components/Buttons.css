@@ -1,0 +1,26 @@
+
+.Buttons {
+    
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 30px 30px 30px 30px 30px; 
+    grid-column-start: 3;
+    column-gap: 0;
+    row-gap: 0;
+    
+}
+
+#AC, #equals{
+    grid-column-end: span 2;
+    background-color: #F1E0AC;
+}
+
+button {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #98B4AA;
+    border: 0;
+}
+button:hover {
+    background-color: #74959A;
+}
